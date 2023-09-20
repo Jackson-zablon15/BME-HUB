@@ -31,7 +31,7 @@ const Topnav = () => {
             priority
             className="mr-2 rounded-md"
           />
-          <h3 className="max-xs:hidden dark:text-white text-blue">
+          <h3 className=" dark:text-white text-blue">
             Biomedical HUB
           </h3>
         </div>
