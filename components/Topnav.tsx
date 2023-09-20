@@ -32,7 +32,7 @@ const Topnav = () => {
             className="mr-2 rounded-md"
           />
           <h3 className=" dark:text-white text-blue">
-            Biomedical HUB
+            BME HUB
           </h3>
         </div>
 
