@@ -21,8 +21,8 @@ export const navLinks = [
   },
   {
     imgURL: events,
-    route: "/events",
-    label: "Events",
+    route: "/news",
+    label: "News",
   },
   {
     imgURL: library,
