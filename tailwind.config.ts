@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "xs": "450px",
+        "tablet": "500px",
+          "sm": "490px"
+      },
       colors: {
         "menu-light": "#20232A",
         "menu-dark": "#333",
@@ -30,9 +35,7 @@ const config: Config = {
         "count-badge": "0px 0px 6px 2px rgba(219, 188, 159, 0.30)",
         "groups-sidebar": "-30px 0px 60px 0px rgba(28, 28, 31, 0.50)",
       },
-      screens: {
-        xs: "450px",
-      },
+    
     },
   },
   plugins: [],

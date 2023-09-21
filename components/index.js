@@ -7,4 +7,4 @@ import Hero from "./Hero";
 import Sidebar from "./Sidebar";
 import Topnav from "./Topnav";
 
-export { About, Bottombar, Contact, Dashboard, Footer, Hero, Sidebar, Topnav };
+export { About, Bottombar, Contact, Dashboard, Footer, Hero, Sidebar, Topnav, Hero };

@@ -2,26 +2,32 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        xs: "450px",
-      },
+     
     },
     extend: {
+      screens: {
+        xs: "450px",
+        "tablet": "500px",
+        sm: "490px",
+      },
+      backgroundImage: {
+        "hero-image": "url('/assets/home/hero.jpg')",
+      },
       colors: {
-        "menu-light": "#20232A",
-        "menu-dark": "#333",
+        "menu-light": "#333",
+        "menu-dark": "#222",
         "primary-500": "#877EFF",
+        "btn-color": "#454E9A",
         "secondary-500": "#FFB620",
-        'blue': "#0095F6",
         "logout-btn": "#FF5A5A",
         "dark-1": "#000000",
         "dark-2": "#121417",
@@ -32,7 +38,8 @@ module.exports = {
         "light-3": "#7878A3",
         "light-4": "#5C5C7B",
         "gray-1": "#697C89",
-        'glassmorphism': "rgba(16, 16, 18, 0.60)",
+        "glassmorphism": "rgba(16, 16, 18, 0.60)",
+        "hero-bg": "rgba(13, 153, 255, 0.70)",
       },
       keyframes: {
         "accordion-down": {
@@ -51,4 +58,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
