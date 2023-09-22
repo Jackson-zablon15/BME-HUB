@@ -43,7 +43,6 @@ const Topnav = () => {
 
 
   return (
-    <div>
       <div className="sticky z-20 top-0 left-0 h-[10vh] flex justify-between items-center bg-menu-light dark:bg-menu-dark py-4 px-4 shadow-md shadow-slate-800">
         <Link onClick={ () => setOpened(false)} href="/">
           <div className="flex items-center justify-start">
@@ -100,7 +99,6 @@ const Topnav = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

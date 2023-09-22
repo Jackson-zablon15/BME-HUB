@@ -3,7 +3,7 @@ import React from 'react'
 const Sidebar = () => {
 
   return (
-    <div className='max-sm:hidden'>
+    <div className='hidden'>
       <h3>sidebar:</h3>
        
     </div>

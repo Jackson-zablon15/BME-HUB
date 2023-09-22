@@ -17,7 +17,6 @@ module.exports = {
       screens: {
         xs: "450px",
         "tablet": "500px",
-        sm: "490px",
       },
       backgroundImage: {
         "hero-image": "url('/assets/home/hero.jpg')",
@@ -27,6 +26,8 @@ module.exports = {
         "menu-dark": "#222",
         "primary-500": "#877EFF",
         "btn-color": "#454E9A",
+        "footer-bg": "rgba(11, 23, 53, 1)",
+        "about-bg": "rgba(13, 153, 255, 0.6)",
         "secondary-500": "#FFB620",
         "logout-btn": "#FF5A5A",
         "dark-1": "#000000",
@@ -40,6 +41,7 @@ module.exports = {
         "gray-1": "#697C89",
         "glassmorphism": "rgba(16, 16, 18, 0.60)",
         "hero-bg": "rgba(13, 153, 255, 0.70)",
+        "news-bg": "rgba(13, 153, 255, 1)"
       },
       keyframes: {
         "accordion-down": {

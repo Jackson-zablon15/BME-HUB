@@ -12,6 +12,10 @@ import home from "./home/home.svg";
 import questions from "./home/questions.svg";
 import library from "./home/library.svg";
 import hero from "./home/hero.jpg";
+import whatsaap from "./socialicons/whatsapp.svg";
+import facebook from "./socialicons/facebook.svg";
+import instagram from "./socialicons/instagram.svg";
+import twetter from "./socialicons/twitter.svg";
 
 export {
   close,
@@ -27,5 +31,9 @@ export {
   questions,
   home,
   library,
-  hero
+  hero,
+  whatsaap,
+  facebook,
+  instagram,
+  twetter,
 };
